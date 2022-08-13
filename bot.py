@@ -18,7 +18,7 @@ def dataBeth(data):
     userId = data[-1]['message']['chat']['id']
     return update_id, userId, userText
 
-s = ''
+s =  ''
 while True:
     result = getUpdet()
     dB = dataBeth(result['result'])
